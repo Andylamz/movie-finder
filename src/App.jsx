@@ -1,6 +1,6 @@
 import Header from "./Components/Header/Header";
 import styles from "./App.module.css";
-import Body from "./Components/Body/body";
+import Body from "./Components/Body/Body";
 import { useState } from "react";
 
 function App() {
