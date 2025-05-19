@@ -16,7 +16,7 @@ Users can view the most popular movies on page load, search for specific title, 
 ## Features
 
     - Fetches and displays popular movies when the page loads
-    - Users can search by hitting **Enter** or clicking the **search icon**
+    - Users can search by hitting Enter or clicking the search icon
     - Search input clears after submission for better user experience
     - Each movie displays title, poster, runtime, and overview
     - Styled using CSS Modules for scoped and maintainable component styling
