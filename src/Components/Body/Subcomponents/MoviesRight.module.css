@@ -1,0 +1,43 @@
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(59, 59, 59, 0.58);
+  width: 41.5rem;
+  border-radius: 2rem;
+  padding: 3rem;
+  gap: 1.5rem;
+}
+.container img {
+  width: 15rem;
+  /* height: 20rem; */
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+.detailContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.detailContainer h3 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.movieDetails {
+  display: flex;
+  gap: 4rem;
+  font-size: 1.5rem;
+}
+.movieDes {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.message {
+  font-size: 2rem;
+  margin: 25rem auto;
+  /* background-color: pink; */
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(59, 59, 59, 0.58);
+  width: 41.5rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.message {
+  font-size: 2rem;
+  margin: 28rem auto;
+  text-align: center;
+}
