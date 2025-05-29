@@ -8,6 +8,29 @@
   overflow: hidden;
   overflow-y: auto;
 }
+/* 
+.container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: rgb(243, 105, 19);
+  border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: rgb(243, 105, 19);
+} */
+
+.container {
+  scrollbar-width: 0.2rem;
+  scrollbar-color: rgb(243, 105, 19) #1a1a1a;
+}
+
 .message {
   font-size: 2rem;
   margin: 28rem auto;
